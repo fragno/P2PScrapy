@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class ProductBaseModel;
+@class PSProductBaseModel;
 @interface PSGeneralProductCell : UITableViewCell
 
-- (void)updateCellWithModel:(ProductBaseModel *)model;
++ (CGFloat)cellHeightWithModel:(PSProductBaseModel *)model;
+
+- (void)updateCellWithModel:(PSProductBaseModel *)model;
 
 @end

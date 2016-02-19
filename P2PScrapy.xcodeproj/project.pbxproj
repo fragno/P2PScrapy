@@ -15,7 +15,8 @@
 		E82A821E1C7772A00060C562 /* PSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A821B1C7772A00060C562 /* PSHomeViewController.m */; };
 		E82A821F1C7772A00060C562 /* PSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A821D1C7772A00060C562 /* PSMineViewController.m */; };
 		E82A82231C7774B00060C562 /* PSGeneralProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A82221C7774B00060C562 /* PSGeneralProductCell.m */; };
-		E82A82261C77760B0060C562 /* ProductBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A82251C77760B0060C562 /* ProductBaseModel.m */; };
+		E82A82261C77760B0060C562 /* PSProductBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A82251C77760B0060C562 /* PSProductBaseModel.m */; };
+		E862AFD91C77816E002D1E69 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E862AFD81C77816E002D1E69 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +34,11 @@
 		E82A821D1C7772A00060C562 /* PSMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMineViewController.m; sourceTree = "<group>"; };
 		E82A82211C7774B00060C562 /* PSGeneralProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSGeneralProductCell.h; sourceTree = "<group>"; };
 		E82A82221C7774B00060C562 /* PSGeneralProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSGeneralProductCell.m; sourceTree = "<group>"; };
-		E82A82241C77760B0060C562 /* ProductBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductBaseModel.h; sourceTree = "<group>"; };
-		E82A82251C77760B0060C562 /* ProductBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductBaseModel.m; sourceTree = "<group>"; };
+		E82A82241C77760B0060C562 /* PSProductBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSProductBaseModel.h; sourceTree = "<group>"; };
+		E82A82251C77760B0060C562 /* PSProductBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSProductBaseModel.m; sourceTree = "<group>"; };
+		E862AFD71C77816E002D1E69 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		E862AFD81C77816E002D1E69 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		E862AFDB1C778480002D1E69 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		E82A81FB1C776DCF0060C562 /* P2PScrapy */ = {
 			isa = PBXGroup;
 			children = (
+				E862AFD51C778134002D1E69 /* Categories */,
 				E82A82171C7772840060C562 /* Business */,
 				E82A82181C7772840060C562 /* Model */,
 				E82A82191C7772840060C562 /* ViewControllers */,
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				E82A81FD1C776DCF0060C562 /* main.m */,
+				E862AFDB1C778480002D1E69 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -99,8 +105,8 @@
 		E82A82181C7772840060C562 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E82A82241C77760B0060C562 /* ProductBaseModel.h */,
-				E82A82251C77760B0060C562 /* ProductBaseModel.m */,
+				E82A82241C77760B0060C562 /* PSProductBaseModel.h */,
+				E82A82251C77760B0060C562 /* PSProductBaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +130,15 @@
 				E82A82221C7774B00060C562 /* PSGeneralProductCell.m */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		E862AFD51C778134002D1E69 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E862AFD71C77816E002D1E69 /* UIView+Layout.h */,
+				E862AFD81C77816E002D1E69 /* UIView+Layout.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,10 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82A82261C77760B0060C562 /* ProductBaseModel.m in Sources */,
+				E82A82261C77760B0060C562 /* PSProductBaseModel.m in Sources */,
 				E82A821F1C7772A00060C562 /* PSMineViewController.m in Sources */,
 				E82A82011C776DCF0060C562 /* AppDelegate.m in Sources */,
 				E82A81FE1C776DCF0060C562 /* main.m in Sources */,
+				E862AFD91C77816E002D1E69 /* UIView+Layout.m in Sources */,
 				E82A821E1C7772A00060C562 /* PSHomeViewController.m in Sources */,
 				E82A82231C7774B00060C562 /* PSGeneralProductCell.m in Sources */,
 			);
@@ -312,7 +328,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = P2PScrapy/PrefixHeader.pch;
 				INFOPLIST_FILE = P2PScrapy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rookienerd.P2PScrapy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -323,7 +343,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = P2PScrapy/PrefixHeader.pch;
 				INFOPLIST_FILE = P2PScrapy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rookienerd.P2PScrapy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,6 +373,7 @@
 				E82A82151C776DCF0060C562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

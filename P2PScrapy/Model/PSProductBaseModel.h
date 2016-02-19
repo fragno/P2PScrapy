@@ -1,5 +1,5 @@
 //
-//  ProductBaseModel.h
+//  PSProductBaseModel.h
 //  P2PScrapy
 //
 //  Created by fragno on 16/2/20.
@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProductBaseModel : NSObject
+@interface PSProductBaseModel : NSObject
 
 /**
  *  项目名称
  */
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, copy) NSString *name;
 
 /**
  *  项目利率
@@ -33,6 +33,6 @@
 /**
  *  项目来源平台
  */
-@property (nonatomic, assign) CGFloat source;
+@property (nonatomic, copy) NSString *source;
 
 @end
