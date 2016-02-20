@@ -13,7 +13,6 @@
 
 + (instancetype)modelWithRequest
 {
-    
     p2pscrapy::Product *product = new p2pscrapy::Product();
     product->set_name("dads");
     product->set_rate(1.2);
