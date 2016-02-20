@@ -2,4 +2,388 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "P2PScrapy/ThirdParty/google/protobuf/message_lite.cc"
+            timestampString = "477680317.486374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "InlineMergeFromCodedStream(io::CodedInputStream* input, MessageLite* message)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "google::protobuf::MessageLite::ParseFromCodedStream(google::protobuf::io::CodedInputStream*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/message_lite.cc"
+                  timestampString = "477682184.279299"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "google::protobuf::MessageLite::ParseFromString(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/message_lite.cc"
+                  timestampString = "477682184.279716"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "746">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "google::protobuf::MessageLite::ParseFromArray(void const*, int)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/message_lite.cc"
+                  timestampString = "477682184.280664"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "259">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "P2PScrapy/ThirdParty/google/protobuf/descriptor.pb.cc"
+            timestampString = "477680939.330515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1167"
+            endingLineNumber = "1167"
+            landmarkName = "FileDescriptorProto::MergePartialFromCodedStream( ::google::protobuf::io::CodedInputStream* input)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+            timestampString = "477681242.354968"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "490"
+            endingLineNumber = "490"
+            landmarkName = "WireFormatLite::ReadMessageNoVirtual( io::CodedInputStream* input, MessageType_WorkAroundCppLookupDefect* value)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::FileDescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::FileDescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.284288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::DescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::DescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.284503"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::ServiceDescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::ServiceDescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.28485"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::FieldDescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::FieldDescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.285456"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::FileOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::FileOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.285796"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::SourceCodeInfo&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::SourceCodeInfo*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.286012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::DescriptorProto_ExtensionRange&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::DescriptorProto_ExtensionRange*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.286415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::MessageOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::MessageOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.286565"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::OneofDescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::OneofDescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.286703"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::FieldOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::FieldOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::EnumValueDescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::EnumValueDescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::EnumOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::EnumOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::EnumValueOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::EnumValueOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::MethodDescriptorProto&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::MethodDescriptorProto*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::ServiceOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::ServiceOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287868"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::MethodOptions&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::MethodOptions*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.287994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::UninterpretedOption&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::UninterpretedOption*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.288118"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::UninterpretedOption_NamePart&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::UninterpretedOption_NamePart*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.288324"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual&lt;google::protobuf::SourceCodeInfo_Location&gt;(google::protobuf::io::CodedInputStream*, google::protobuf::SourceCodeInfo_Location*)"
+                  moduleName = "P2PScrapy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fragno/Github/P2PScrapy/P2PScrapy/ThirdParty/google/protobuf/wire_format_lite_inl.h"
+                  timestampString = "477682184.288449"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

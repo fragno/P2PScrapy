@@ -87,6 +87,9 @@ static NSString * const generalProductCellIdentifier = @"generalProductCellIdent
     model2.source = @"陆金所";
     [mockProductArray addObject:model2];
     
+    PSProductBaseModel *model3 = [PSProductBaseModel modelWithRequest];
+    [mockProductArray addObject:model3];
+    
     return mockProductArray;
 }
 

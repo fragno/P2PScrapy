@@ -35,4 +35,7 @@
  */
 @property (nonatomic, copy) NSString *source;
 
+
++ (instancetype)modelWithRequest;
+
 @end
