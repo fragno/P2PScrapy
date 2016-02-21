@@ -211,16 +211,14 @@
 			children = (
 				E862B82E1C78DE30002D1E69 /* AppDelegate.h */,
 				E862B82F1C78DE30002D1E69 /* AppDelegate.m */,
+				E862B8351C78DE30002D1E69 /* Business */,
+				E862B8361C78DE30002D1E69 /* Categories */,
+				E862B83B1C78DE30002D1E69 /* Model */,
+				E862B8A21C78DE30002D1E69 /* ViewControllers */,
 				E862B8301C78DE30002D1E69 /* Assets.xcassets */,
 				E862B8311C78DE30002D1E69 /* LaunchScreen.storyboard */,
 				E862B8331C78DE30002D1E69 /* Main.storyboard */,
-				E862B8351C78DE30002D1E69 /* Business */,
-				E862B8361C78DE30002D1E69 /* Categories */,
-				E862B8391C78DE30002D1E69 /* Info.plist */,
-				E862B83A1C78DE30002D1E69 /* main.m */,
-				E862B83B1C78DE30002D1E69 /* Model */,
-				E862B8411C78DE30002D1E69 /* PrefixHeader.pch */,
-				E862B8A21C78DE30002D1E69 /* ViewControllers */,
+				E862B9631C7A0C10002D1E69 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -418,6 +416,16 @@
 				E862B9331C78DEFC002D1E69 /* type_traits.h */,
 			);
 			path = stubs;
+			sourceTree = "<group>";
+		};
+		E862B9631C7A0C10002D1E69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E862B8391C78DE30002D1E69 /* Info.plist */,
+				E862B83A1C78DE30002D1E69 /* main.m */,
+				E862B8411C78DE30002D1E69 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
